@@ -194,6 +194,18 @@ a {
   margin: 30px;
 }
 
+@media only screen and (max-width: 1300px) {
+  .home-main img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1015px) {
+  .home-main img {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 858px) {
   .socials {
     display: none;
@@ -234,5 +246,48 @@ a {
 
   .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .icon {
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .icon {
+    padding: 10px;
+  }
+  .icon h3 {
+    font-size: calc(20 / 16 * 1rem);
+    color: #000;
+    margin-bottom: 5px;
+  }
+
+  .icon p {
+    font-size: calc(13 / 16 * 1rem);
+  }
+
+  .icon i {
+    background: linear-gradient(
+      70deg,
+      rgba(255, 0, 150, 1) 0%,
+      rgba(255, 10, 76, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: calc(45 / 16 * 1rem);
+    margin-bottom: 5px;
+  }
+  .home-info h1 {
+    font-size: calc(40 / 16 * 1rem);
+    margin-bottom: 25px;
+  }
+
+  .home-info a {
+    padding: 6px 23px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #000;
   }
 }
