@@ -289,9 +289,17 @@ a {
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1330px) {
   .home-main img {
     width: 500px;
+  }
+  .grid-about {
+    grid-template-areas: "one one one one" "four four four four" "two two three three";
+    grid-gap: 10px;
+  }
+
+  .box-4 {
+    width: 700px;
   }
 }
 
