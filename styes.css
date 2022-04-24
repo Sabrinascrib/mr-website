@@ -88,7 +88,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  opacity: 0.7;
 }
 
 .nav-logo {
@@ -192,6 +192,97 @@ a {
 .icon-box {
   width: 250px;
   margin: 30px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  flex-direction: column;
+}
+
+#about h1 {
+  background: linear-gradient(
+    70deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(255, 10, 76, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: calc(100 / 16 * 1rem);
+  margin-bottom: 100px;
+}
+
+.grid-about {
+  display: grid;
+  grid-template-areas: "one one four four" "two three four four";
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.grid-about h3 {
+  font-weight: 700;
+  font-size: calc(30 / 16 * 1rem);
+  margin-bottom: 20px;
+}
+
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 400px;
+  max-width: 800px;
+  grid-area: one;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+  padding-left: 50px;
+}
+
+.box-1 p {
+  color: #464646;
+  width: 700px;
+}
+
+.box-2 {
+  background-image: url("img/grouptalk.jpg");
+  height: 400px;
+  width: 400px;
+  grid-area: two;
+  border-radius: 15px;
+}
+.box-3 {
+  display: flex;
+  background: linear-gradient(
+    70deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(255, 10, 76, 1) 100%
+  );
+  height: 400px;
+  width: 400px;
+  grid-area: three;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-3 p {
+  color: #ffafca;
+  width: 300px;
+}
+
+.box-4 {
+  background-image: url("img/maninfornzofcomputer.jpg");
+  height: 800px;
+  width: 800px;
+  grid-area: four;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 1300px) {
