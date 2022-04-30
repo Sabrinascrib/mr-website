@@ -52,8 +52,15 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
-  max-width: 1600px;
+  width: 100vw;
   margin: 0 auto;
+  background: linear-gradient(
+    70deg,
+    rgba(255, 0, 150, 1) 0%,
+    rgba(255, 10, 76, 1) 100%
+  );
+  position: fixed;
+  z-index: 10;
 }
 
 .hamburger {
@@ -119,6 +126,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 .home-main img {
@@ -428,6 +436,9 @@ a {
   .icon {
     margin-right: 150px;
     margin-left: 150px;
+  }
+  .nav-link {
+    color: #000;
   }
 }
 
