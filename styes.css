@@ -357,6 +357,41 @@ a {
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .grid-about {
+    grid-template-areas: "one " "four " "three" "two";
+    grid-gap: 10px;
+  }
+
+  .box-1 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box-1 p {
+    width: 300px;
+  }
+
+  .box-2 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box-3 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .box-3 p {
+    width: 300px;
+  }
+
+  .box-4 {
+    width: 400px;
+    height: 400px;
+  }
+}
+
 @media only screen and (max-width: 520px) {
   .icon {
     padding: 10px;
