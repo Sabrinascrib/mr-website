@@ -483,6 +483,45 @@ a {
 }
 
 @media only screen and (max-width: 520px) {
+  .home-main {
+    margin-left: 25px;
+  }
+
+  .home-info {
+    margin-top: 25px;
+  }
+  .home-info h1 {
+    color: #fff;
+    font-size: calc(10 / 16 * 1rem);
+  }
+
+  .box-1 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .box-1 p {
+    width: 250px;
+  }
+
+  .box-2 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .box-3 {
+    width: 350px;
+    height: 350px;
+  }
+
+  .box-3 p {
+    width: 250px;
+  }
+
+  .box-4 {
+    width: 350px;
+    height: 350px;
+  }
   .icon {
     padding: 10px;
   }
